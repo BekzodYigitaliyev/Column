@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Open+Sans:wght@400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Lexend+Deca&family=Open+Sans:wght@400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  height: 800px;
+  background: #F2F2F2;
+}
+
+
+.container {
+  width: 920px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  border-radius: 8px;
+  margin: 171px 260px 129px 260px;
+}
+
+.content{
+  width: 307px;
+  height: 500px;
+  padding: 48px;
+  border-radius: 8px;
+}
+
+.sedan{
+  background: #E28625;
+}
+
+.suvs {
+  background: #006971;
+}
+
+.luxury {
+  background: #004140;
+  
+}
+
+.cards_icon {
+  width: 64px;
+  height: 40px;
+  color: #000000;
+}
+
+.card_title {
+  color: #F2F2F2;
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card_text {
+  width: 212px;
+  height: 125px;
+  color: #FFF;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;/* 166.667% */
+  margin-bottom: 83px;
+}
+
+.card_link {
+  width: 146px;
+  height: 48px;
+  border-radius: 25px;
+  background: #F2F2F2;
+  text-decoration: none;
+  padding: 12px 30px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  font-weight: 400px;
+  line-height: 25px;/* 166.667% */
+}
+
+.btn{
+  color: #E28625;
+}
+
+.btn2{
+  color: #006971;
+}
+
+.btn3{
+  color: #004140;
+}
